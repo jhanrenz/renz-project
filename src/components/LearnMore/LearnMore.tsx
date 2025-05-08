@@ -5,7 +5,7 @@ import { Footer } from "../Footer/Footer";
 import StatisticsForest from "./StatisticsForest";
 import StatisticsWater from "./StatisticsWater";
 import StatisticsAir from "./StatisticsAir";
-import UnsustainableImpactSection from "./UnsustainableImpact";
+import UnsustainableImpact from "./UnsustainableImpact";
 
 const LearnMore = () => {
   const [showMore, setShowMore] = useState(false);
@@ -64,7 +64,7 @@ const LearnMore = () => {
         <Articles />
       </section>
       <section className="py-16 px-4">
-        <UnsustainableImpactSection />
+        <UnsustainableImpact />
       </section>
 
       {/* Statistics Section with padding */}

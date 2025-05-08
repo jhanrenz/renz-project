@@ -1,6 +1,6 @@
 import React from "react";
 
-const UnsustainableImpactSection: React.FC = () => {
+const UnsustainableImpact: React.FC = () => {
   return (
     <section className="bg-white py-12 px-6 sm:px-12 lg:px-24">
       <div className="max-w-5xl mx-auto">
@@ -42,4 +42,4 @@ const UnsustainableImpactSection: React.FC = () => {
   );
 };
 
-export default UnsustainableImpactSection;
+export default UnsustainableImpact;
