@@ -5,11 +5,11 @@ interface YoutubeProps {
 }
 
 const Youtube: React.FC<YoutubeProps> = ({ videoId }) => {
-  // Updated embed URL with autoplay and sound
+  // Updated embed URL with autoplay and no mute, ensuring sound plays
   const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
 
   return (
-    <div className="relative w-full h-80 md:h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-lg">
+    <div className="relative w-full h-56 sm:h-72 md:h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-lg">
       <iframe
         className="absolute top-0 left-0 w-full h-full"
         src={embedUrl}
