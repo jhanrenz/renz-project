@@ -28,11 +28,20 @@ const StatisticsAir: React.FC = () => {
     <div className="bg-white shadow rounded-lg p-8 sm:p-10 lg:p-12 mt-12">
       <h2 className="text-2xl font-bold mb-2">PM2.5 from Transportation in Southeast Asian Cities</h2>
       <p className="text-gray-600 text-sm mb-4">
-        In developing Southeast Asian cities, traffic is a major source of PM2.5 pollution.
-        In <strong>Metro Manila</strong>, up to <strong>88%</strong> of PM2.5 comes from transport,
-        while in <strong>Jakarta</strong>, it's around <strong>46%</strong>. This is due to old diesel engines,
-        lack of emission controls, and dense traffic.
-      </p>
+                In developing Southeast Asian cities, traffic is a major source of PM2.5 pollution.
+                In <strong>Metro Manila</strong>, up to <strong>88%</strong> of PM2.5 comes from transport,
+                while in <strong>Jakarta</strong>, it's around <strong>46%</strong>. This is due to old diesel engines,
+                lack of emission controls, and dense traffic.
+                <a
+                    href="https://www.researchgate.net/publication/366771778_Spatiotemporal_Assessment_of_PM25_Exposure_of_a_High-risk_Occupational_Group_in_a_Southeast_Asian_Megacity"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary underline ml-1 hover:text-primary/80"
+                >
+                    (Source: ResearchGate)
+                </a>
+                </p>
+
 
       <ResponsiveContainer width="100%" height={300}>
         <BarChart data={pollutionData} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>

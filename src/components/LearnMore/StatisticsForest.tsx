@@ -25,12 +25,18 @@ const StatisticsForest: React.FC = () => {
     <div className="bg-white shadow rounded-lg p-8 sm:p-10 lg:p-12 mt-12">
       <h2 className="text-2xl font-bold mb-2">Philippines Humid Primary Forest Loss</h2>
       <p className="text-gray-600 text-sm mb-4">
-        From 2002 to 2023, the Philippines lost 190 thousand hectares of humid primary forest — 
-        making up 13% of its total tree cover loss. The total forest area decreased by 4.1%.
-        <span className="text-primary underline ml-1">
-          (Source: Global Forest Watch)
-        </span>
-      </p>
+            From 2002 to 2023, the Philippines lost 190 thousand hectares of humid primary forest — 
+            making up 13% of its total tree cover loss. The total forest area decreased by 4.1%.
+            <a
+                href="https://www.globalforestwatch.org/dashboards/country/PHL/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary underline ml-1 hover:text-primary/80"
+            >
+                (Source: Global Forest Watch)
+            </a>
+            </p>
+
 
       <ResponsiveContainer width="100%" height={300}>
         <AreaChart data={forestLossData}>

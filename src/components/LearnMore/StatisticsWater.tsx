@@ -32,10 +32,16 @@ const StatisticsWater: React.FC = () => {
         and <strong>43 million lack access to safe sanitation</strong>. Urbanization and economic growth
         continue to challenge equitable access. In 2010, the government committed to achieving universal
         access by 2028.
-        <span className="text-primary underline ml-1">
-          (Source: Water.org)
-        </span>
-      </p>
+        <a
+            href="https://www.unicef.org/philippines/press-releases/two-billion-people-lack-safe-drinking-water-more-twice-lack-safe-sanitation"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary underline ml-1 hover:text-primary/80"
+        >
+            (Source: UNICEF)
+        </a>
+        </p>
+
 
       <ResponsiveContainer width="100%" height={300}>
         <BarChart data={accessData} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>

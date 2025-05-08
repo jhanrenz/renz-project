@@ -24,10 +24,16 @@ const StatisticsHeat: React.FC = () => {
             about 1.47°C warmer in 2024 than in the late 19th-century (1850–1900) preindustrial
             average. The 10 most recent years are the warmest on record.
             <br />
-            <span className="text-primary hover:text-primary/80 text-sm inline-block mt-2">
-              Source: NASA/GISS
-            </span>
-          </p>
+            <a
+                href="https://climate.nasa.gov/vital-signs/global-temperature/?intent=121#:~:text=This%20graph%20shows%20the%20change,the%20latest%20available%2C%20updated%20annually."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:text-primary/80 text-sm inline-block mt-2"
+            >
+                Source: NASA/GISS
+            </a>
+            </p>
+
         </div>
       </div>
 
